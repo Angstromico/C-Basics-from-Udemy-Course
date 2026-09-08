@@ -12,3 +12,4 @@ C:\Users\Manuel Morales\source\repos\First Steps\First Steps\obj\Debug\net10.0\r
 C:\Users\Manuel Morales\source\repos\First Steps\First Steps\obj\Debug\net10.0\First Steps.pdb
 C:\Users\Manuel Morales\source\repos\First Steps\First Steps\obj\Debug\net10.0\First Steps.genruntimeconfig.cache
 C:\Users\Manuel Morales\source\repos\First Steps\First Steps\obj\Debug\net10.0\ref\First Steps.dll
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\obj\Debug\net10.0\First Steps.sourcelink.json
