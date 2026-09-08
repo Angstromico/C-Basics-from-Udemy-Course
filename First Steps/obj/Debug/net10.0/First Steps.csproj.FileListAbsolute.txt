@@ -1,0 +1,14 @@
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\bin\Debug\net10.0\First Steps.exe
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\bin\Debug\net10.0\First Steps.deps.json
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\bin\Debug\net10.0\First Steps.runtimeconfig.json
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\bin\Debug\net10.0\First Steps.dll
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\bin\Debug\net10.0\First Steps.pdb
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\obj\Debug\net10.0\First Steps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\obj\Debug\net10.0\First Steps.AssemblyInfoInputs.cache
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\obj\Debug\net10.0\First Steps.AssemblyInfo.cs
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\obj\Debug\net10.0\First Steps.csproj.CoreCompileInputs.cache
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\obj\Debug\net10.0\First Steps.dll
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\obj\Debug\net10.0\refint\First Steps.dll
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\obj\Debug\net10.0\First Steps.pdb
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\obj\Debug\net10.0\First Steps.genruntimeconfig.cache
+C:\Users\Manuel Morales\source\repos\First Steps\First Steps\obj\Debug\net10.0\ref\First Steps.dll
