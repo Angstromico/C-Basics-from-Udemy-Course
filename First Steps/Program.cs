@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace First_Steps
+﻿namespace First_Steps
 {
     class Program
     {
