@@ -7,6 +7,7 @@
             Console.WriteLine("Please enter a message: ");
             string? userMessage = Console.ReadLine();
             Console.WriteLine("You entered: " + userMessage);
+            CharsExamples.Run();
             Console.ReadKey();
         }
     }
