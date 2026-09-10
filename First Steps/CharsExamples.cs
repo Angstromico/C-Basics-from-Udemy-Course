@@ -2,6 +2,10 @@
 {
     internal class CharsExamples
     {
+        /// <summary>
+        /// Demonstrates different ways to create and work with characters,
+        /// strings, and character arrays.
+        /// </summary>
         public static void Run()
         {
             PrintCharInfo('A');
@@ -17,6 +21,11 @@
             PrintCharInfo(chars);
         }
 
+        /// <summary>
+        /// Prints information about a single character, including its
+        /// numeric value and neighboring characters.
+        /// </summary>
+        /// <param name="myChar">The character to analyze.</param>
         private static void PrintCharInfo(char myChar)
         {
             Console.WriteLine("The character is: " + myChar);
@@ -26,6 +35,11 @@
             Console.WriteLine("The character after decrementing is: " + (char)(myChar - 1));
         }
 
+        /// <summary>
+        /// Iterates through each character in a string and prints
+        /// information about each one.
+        /// </summary>
+        /// <param name="myString">The string whose characters will be analyzed.</param>
         private static void PrintCharInfo(string myString)
         {
             foreach (char c in myString)
@@ -35,6 +49,11 @@
 
         }
 
+        /// <summary>
+        /// Iterates through a character array and prints information
+        /// about each character.
+        /// </summary>
+        /// <param name="myCharArray">The array of characters to analyze.</param>
         private static void PrintCharInfo(char[] myCharArray)
         {
             foreach (char c in myCharArray)
