@@ -4,43 +4,31 @@
     {
         public static void Run() {
             //Sum of two input numbers: 
-            int firstNUmber;
-            int secondNumber;
-            int firstAndSecondSum;
+            int firstNumber = ReadNumber("Please enter a number:");
+            int secondNumber = ReadNumber("Please enter a second number:");
 
-            while (true)
-            {
-                Console.WriteLine("Please enter a number:");
+            int sum = firstNumber + secondNumber;
 
-                string? input = Console.ReadLine();
-
-                if (int.TryParse(input, out firstNUmber))
-                {
-                    break;
-                }
-
-                Console.WriteLine("Invalid number. Try again.");
-            }
-
-            while (true)
-            {
-                Console.WriteLine("Please enter a second number:");
-
-                string? input = Console.ReadLine();
-
-                if (int.TryParse(input, out secondNumber))
-                {
-                    break;
-                }
-
-                Console.WriteLine("Invalid number. Try again.");
-            }
-
-            firstAndSecondSum = firstNUmber + secondNumber;
-
-            Console.WriteLine($"The number you entered is: {firstNUmber}");
+            Console.WriteLine($"The number you entered is: {firstNumber}");
             Console.WriteLine($"The second number you entered is: {secondNumber}");
-            Console.WriteLine($"The sum of the two numbers is: {firstAndSecondSum}");
+            Console.WriteLine($"The sum of the two numbers is: {sum}");
+
+            static int ReadNumber(string message)
+            {
+                while (true)
+                {
+                    Console.WriteLine(message);
+
+                    string? input = Console.ReadLine();
+
+                    if (int.TryParse(input, out int number))
+                    {
+                        return number;
+                    }
+
+                    Console.WriteLine("Invalid number. Try again.");
+                }
+            }
         }
     }
 }
