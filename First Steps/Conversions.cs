@@ -55,6 +55,11 @@
             Console.WriteLine(ExtractNumber("abc"));    // 0
             Console.WriteLine(ExtractNumber("a1b2c3")); // 123
             Console.WriteLine(ExtractNumber("7up"));    // 7
+
+            // Convert Class
+            string myBooleanString = "true";
+            bool myBoolean = Convert.ToBoolean(myBooleanString);
+            Console.WriteLine($"Converted string '{myBooleanString}' to boolean: {myBoolean}");
         }
     }
 }
