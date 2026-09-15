@@ -11,6 +11,7 @@
             
             CharsExamples.Run();
             Calculator.Run();
+            Conversions.Run();
 
             Console.ReadKey();
         }
