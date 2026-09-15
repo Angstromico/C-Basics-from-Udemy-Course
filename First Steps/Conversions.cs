@@ -37,6 +37,24 @@
             int explicitInt = (int)explicitDouble; // Explicit conversion from double to int
             Console.WriteLine($"Explicitly converted double {explicitDouble} to int: {explicitInt}");
 
+            // Method any string into number
+            //<summary>
+            // Extracts the numeric part from a string and converts it to an integer.
+            // If the string does not contain any digits, it returns 0.
+            //</summary>
+            static int ExtractNumber(string input)
+            {
+                string digits = string.Concat(input.Where(char.IsDigit));
+
+                return int.TryParse(digits, out int result)
+                    ? result
+                    : 0;
+            }
+
+            Console.WriteLine(ExtractNumber("123a"));   // 123
+            Console.WriteLine(ExtractNumber("abc"));    // 0
+            Console.WriteLine(ExtractNumber("a1b2c3")); // 123
+            Console.WriteLine(ExtractNumber("7up"));    // 7
         }
     }
 }
