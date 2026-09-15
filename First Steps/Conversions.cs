@@ -31,6 +31,12 @@
             Console.WriteLine($"Implicitly converted int {implicitInt} to float: {implicitFloat}");
             implicitDouble = implicitFloat; // Implicit conversion from float to double
             Console.WriteLine($"Implicitly converted float {implicitFloat} to double: {implicitDouble}");
+
+            //Explicit conversions
+            double explicitDouble = 123.45;
+            int explicitInt = (int)explicitDouble; // Explicit conversion from double to int
+            Console.WriteLine($"Explicitly converted double {explicitDouble} to int: {explicitInt}");
+
         }
     }
 }
