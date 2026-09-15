@@ -4,16 +4,16 @@
     {
         public static void Run() {
             //Sum of two input numbers: 
-            int firstNumber = ReadNumber("Please enter a number:");
-            int secondNumber = ReadNumber("Please enter a second number:");
+            double firstNumber = ReadNumber("Please enter a number:");
+            double secondNumber = ReadNumber("Please enter a second number:");
 
-            int sum = firstNumber + secondNumber;
+            double sum = Math.Round(firstNumber + secondNumber, 2);
 
             Console.WriteLine($"The number you entered is: {firstNumber}");
             Console.WriteLine($"The second number you entered is: {secondNumber}");
             Console.WriteLine($"The sum of the two numbers is: {sum}");
 
-            static int ReadNumber(string message)
+            static double ReadNumber(string message)
             {
                 while (true)
                 {
@@ -21,7 +21,7 @@
 
                     string? input = Console.ReadLine();
 
-                    if (int.TryParse(input, out int number))
+                    if (double.TryParse(input, out double number))
                     {
                         return number;
                     }
