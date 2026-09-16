@@ -12,6 +12,7 @@
             CharsExamples.Run();
             Calculator.Run();
             Conversions.Run();
+            StringBinds.Run();
 
             Console.ReadKey();
         }
