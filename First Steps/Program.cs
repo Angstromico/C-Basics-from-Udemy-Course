@@ -13,6 +13,7 @@
             Calculator.Run();
             Conversions.Run();
             StringBinds.Run();
+            ReferencesEquals.Run();
 
             Console.ReadKey();
         }
