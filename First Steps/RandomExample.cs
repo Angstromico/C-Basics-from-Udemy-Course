@@ -65,6 +65,30 @@ namespace First_Steps
             //       0.943   0.108   0.744   0.563   0.415
             //    Five Doubles between 0 and 5.
             //       2.934   3.130   0.292   1.432   4.369
+
+            //Pets names examples: 
+
+            Random rnd = new();
+            string[] malePetNames = [ "Rufus", "Bear", "Dakota", "Fido",
+                        "Vanya", "Samuel", "Koani", "Volodya",
+                        "Prince", "Yiska", "Max", "Spike", "Larry", "Blondie", "Blonju", "Firulais" ];
+            string[] femalePetNames = [ "Maggie", "Penny", "Saya", "Princess",
+                          "Abby", "Laila", "Sadie", "Olivia",
+                          "Starlight", "Talla", "Musta", "Kissa", "Kity", "Ujo", "Blanca" ];
+
+            // Generate random indexes for pet names.
+            int mIndex = rnd.Next(malePetNames.Length);
+            int fIndex = rnd.Next(femalePetNames.Length);
+
+            // Display the result.
+            Console.WriteLine("Suggested pet name of the day: ");
+            Console.WriteLine($"   For a male:     {malePetNames[mIndex]}");
+            Console.WriteLine($"   For a female:   {femalePetNames[fIndex]}");
+
+            // The example displays output similar to the following:
+            //       Suggested pet name of the day:
+            //          For a male:     Koani
+            //          For a female:   Maggie
         }
     }
 }
