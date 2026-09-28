@@ -14,6 +14,7 @@
             Conversions.Run();
             StringBinds.Run();
             ReferencesEquals.Run();
+            RandomExample.Run();
 
             Console.ReadKey();
         }
