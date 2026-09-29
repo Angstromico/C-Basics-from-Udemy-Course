@@ -16,6 +16,7 @@
             ReferencesEquals.Run();
             RandomExample.Run();
             SimpleCalculator.Run();
+            CountdownForLoop.Run();
 
             Console.ReadKey();
         }
