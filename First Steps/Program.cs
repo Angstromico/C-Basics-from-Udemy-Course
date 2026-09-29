@@ -15,6 +15,7 @@
             StringBinds.Run();
             ReferencesEquals.Run();
             RandomExample.Run();
+            SimpleCalculator.Run();
 
             Console.ReadKey();
         }
