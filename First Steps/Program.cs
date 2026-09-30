@@ -17,6 +17,7 @@
             RandomExample.Run();
             SimpleCalculator.Run();
             CountdownForLoop.Run();
+            GuessNumberWhileLoop.Run();
 
             Console.ReadKey();
         }
