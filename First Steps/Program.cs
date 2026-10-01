@@ -18,6 +18,7 @@
             SimpleCalculator.Run();
             CountdownForLoop.Run();
             GuessNumberWhileLoop.Run();
+            TwoAndThreeDimensinalArraysExamples.Run();
 
             Console.ReadKey();
         }
