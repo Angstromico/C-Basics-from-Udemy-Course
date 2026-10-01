@@ -47,6 +47,14 @@
                 }
                 Console.WriteLine();
             }
+
+            //Usage of Two-Dimensional Arrays:
+            int[,] matrixA = new int[2, 3] { { 1, 2, 3 }, { 4, 5, 6 } };
+            int[,] matrixB = new int[3, 2] { { 7, 8 }, { 9, 10 }, { 11, 12 } };
+
+            Console.WriteLine(matrixA[0, 0]); // 1
+            Console.WriteLine(matrixA[0, 2]); // 3
+            Console.WriteLine(matrixA[1, 1]); // 5
         }
     }
 }
