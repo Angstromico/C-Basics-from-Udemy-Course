@@ -55,6 +55,10 @@
             Console.WriteLine(matrixA[0, 0]); // 1
             Console.WriteLine(matrixA[0, 2]); // 3
             Console.WriteLine(matrixA[1, 1]); // 5
+
+            matrixA[1, 2] = 100;
+
+            Console.WriteLine(matrixA[1, 2]); // 100
         }
     }
 }
