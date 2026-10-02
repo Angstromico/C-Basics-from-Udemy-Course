@@ -84,6 +84,36 @@
                 }
             }
             Console.WriteLine($"Sum of all elements in matrixA: {sum}");
+
+            // Now same for three-dimensional array
+            int[,,] cube = new int[2, 2, 2]
+            {
+                {
+                    { 1, 2 },
+                    { 3, 4 }
+                },
+                {
+                    { 5, 6 },
+                    { 7, 8 }
+                }
+            };
+            Console.WriteLine($"Number of rows in cube: {cube.GetLength(0)}");
+            Console.WriteLine($"Number of columns in cube: {cube.GetLength(1)}");
+            Console.WriteLine($"Number of depth in cube: {cube.GetLength(2)}");
+
+            // Sum of all elements in a three-dimensional array
+            int sum3D = 0;
+            for (int i = 0; i < cube.GetLength(0); i++)
+            {
+                for (int j = 0; j < cube.GetLength(1); j++)
+                {
+                    for (int k = 0; k < cube.GetLength(2); k++)
+                    {
+                        sum3D += cube[i, j, k];
+                    }
+                }
+            }
+            Console.WriteLine($"Sum of all elements in cube: {sum3D}");
         }
     }
 }
