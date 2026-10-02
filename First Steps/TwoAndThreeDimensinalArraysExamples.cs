@@ -59,6 +59,16 @@
             matrixA[1, 2] = 100;
 
             Console.WriteLine(matrixA[1, 2]); // 100
+
+            for (int row = 0; row < matrixA.GetLength(0); row++)
+            {
+                for (int col = 0; col < matrixA.GetLength(1); col++)
+                {
+                    Console.Write(matrixA[row, col] + " ");
+                }
+
+                Console.WriteLine();
+            }
         }
     }
 }
