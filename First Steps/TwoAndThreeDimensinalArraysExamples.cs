@@ -73,6 +73,17 @@
             //Return number of rows and columns in a two-dimensional array
             Console.WriteLine($"Number of rows in matrixA: {matrixA.GetLength(0)}");
             Console.WriteLine($"Number of columns in matrixA: {matrixA.GetLength(1)}");
+
+            // Sum of all elements in a two-dimensional array
+            int sum = 0;
+            for (int row = 0; row < matrixA.GetLength(0); row++)
+            {
+                for (int col = 0; col < matrixA.GetLength(1); col++)
+                {
+                    sum += matrixA[row, col];
+                }
+            }
+            Console.WriteLine($"Sum of all elements in matrixA: {sum}");
         }
     }
 }
