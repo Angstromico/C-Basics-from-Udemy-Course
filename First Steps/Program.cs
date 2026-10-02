@@ -19,6 +19,7 @@
             CountdownForLoop.Run();
             GuessNumberWhileLoop.Run();
             TwoAndThreeDimensinalArraysExamples.Run();
+            JaggedArrays.Run();
 
             Console.ReadKey();
         }
